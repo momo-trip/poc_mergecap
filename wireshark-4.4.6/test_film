@@ -1,0 +1,39 @@
+ ** (mergecap:1169951) 01:15:06.927250 [WSUtil DEBUG] wsutil/filesystem.c:324 -- set_configuration_namespace(): Using configuration namespace Wireshark.
+ ** (mergecap:1169951) 01:15:06.927527 [Wiretap DEBUG] wiretap/merge.c:1282 -- merge_files_common(): merge_files: begin
+ ** (mergecap:1169951) 01:15:06.927642 [Wiretap DEBUG] wiretap/pcapng.c:3900 -- pcapng_open(): opening file
+ ** (mergecap:1169951) 01:15:06.927659 [Wiretap DEBUG] wiretap/pcapng.c:3939 -- pcapng_open(): got an SHB
+ ** (mergecap:1169951) 01:15:06.927673 [Wiretap DEBUG] wiretap/pcapng.c:1289 -- pcapng_read_section_header_block(): SHB (our byte order) V1.0, len 400
+ ** (mergecap:1169951) 01:15:06.927692 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 372 bytes
+ ** (mergecap:1169951) 01:15:06.927737 [Wiretap DEBUG] wiretap/pcapng.c:4095 -- pcapng_open(): Check for more initial internal blocks, block_type 0x00000001
+ ** (mergecap:1169951) 01:15:06.927758 [Wiretap DEBUG] wiretap/pcapng.c:1657 -- pcapng_read_if_descr_block(): IDB link_type 197 (Extensible Record Format), snap 262144
+ ** (mergecap:1169951) 01:15:06.927772 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 12 bytes
+ ** (mergecap:1169951) 01:15:06.927788 [Wiretap DEBUG] wiretap/pcapng.c:3793 -- pcapng_process_internal_block(): block type BLOCK_TYPE_IDB
+ ** (mergecap:1169951) 01:15:06.927803 [Wiretap DEBUG] wiretap/pcapng.c:4125 -- pcapng_open(): Read IDB number_of_interfaces 1, wtap_encap 98
+ ** (mergecap:1169951) 01:15:06.927819 [Wiretap DEBUG] wiretap/pcapng.c:4073 -- pcapng_open(): No more blocks available...
+ ** (mergecap:1169951) 01:15:06.927882 [Wiretap DEBUG] wiretap/pcapng.c:3900 -- pcapng_open(): opening file
+ ** (mergecap:1169951) 01:15:06.927895 [Wiretap DEBUG] wiretap/pcapng.c:3939 -- pcapng_open(): got an SHB
+ ** (mergecap:1169951) 01:15:06.927907 [Wiretap DEBUG] wiretap/pcapng.c:1289 -- pcapng_read_section_header_block(): SHB (our byte order) V1.0, len 156
+ ** (mergecap:1169951) 01:15:06.927921 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 128 bytes
+ ** (mergecap:1169951) 01:15:06.927941 [Wiretap DEBUG] wiretap/pcapng.c:4095 -- pcapng_open(): Check for more initial internal blocks, block_type 0x00000001
+ ** (mergecap:1169951) 01:15:06.927955 [Wiretap DEBUG] wiretap/pcapng.c:1657 -- pcapng_read_if_descr_block(): IDB link_type 197 (Extensible Record Format), snap 262144
+ ** (mergecap:1169951) 01:15:06.927969 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 12 bytes
+ ** (mergecap:1169951) 01:15:06.927982 [Wiretap DEBUG] wiretap/pcapng.c:3793 -- pcapng_process_internal_block(): block type BLOCK_TYPE_IDB
+ ** (mergecap:1169951) 01:15:06.927996 [Wiretap DEBUG] wiretap/pcapng.c:4125 -- pcapng_open(): Read IDB number_of_interfaces 1, wtap_encap 98
+ ** (mergecap:1169951) 01:15:06.928010 [Wiretap DEBUG] wiretap/pcapng.c:4073 -- pcapng_open(): No more blocks available...
+ ** (mergecap:1169951) 01:15:06.928026 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:1169951) 01:15:06.928040 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:1169951) 01:15:06.928053 [Wiretap DEBUG] wiretap/merge.c:1322 -- merge_files_common(): got frame_type=98
+ ** (mergecap:1169951) 01:15:06.928074 [Wiretap DEBUG] wiretap/merge.c:1341 -- merge_files_common(): SHB created
+ ** (mergecap:1169951) 01:15:06.928087 [Wiretap DEBUG] wiretap/merge.c:570 -- is_duplicate_idb(): merge::is_duplicate_idb() called
+ ** (mergecap:1169951) 01:15:06.928100 [Wiretap DEBUG] wiretap/merge.c:572 -- is_duplicate_idb(): idb1_mand->wtap_encap == idb2_mand->wtap_encap: true
+ ** (mergecap:1169951) 01:15:06.928114 [Wiretap DEBUG] wiretap/merge.c:580 -- is_duplicate_idb(): idb1_mand->time_units_per_second == idb2_mand->time_units_per_second: true
+ ** (mergecap:1169951) 01:15:06.928127 [Wiretap DEBUG] wiretap/merge.c:591 -- is_duplicate_idb(): idb1_mand->tsprecision == idb2_mand->tsprecision: true
+ ** (mergecap:1169951) 01:15:06.928139 [Wiretap DEBUG] wiretap/merge.c:603 -- is_duplicate_idb(): idb1_mand->snap_len == idb2_mand->snap_len: true
+ ** (mergecap:1169951) 01:15:06.928161 [Wiretap DEBUG] wiretap/merge.c:626 -- is_duplicate_idb(): idb1_if_tsresol == idb2_if_tsresol: true
+ ** (mergecap:1169951) 01:15:06.928175 [Wiretap DEBUG] wiretap/merge.c:712 -- is_duplicate_idb(): returning true
+ ** (mergecap:1169951) 01:15:06.928188 [Wiretap DEBUG] wiretap/merge.c:764 -- all_idbs_are_duplicates(): returning true
+ ** (mergecap:1169951) 01:15:06.928200 [Wiretap DEBUG] wiretap/merge.c:920 -- generate_merged_idbs(): mode ALL set and all IDBs are duplicates
+ ** (mergecap:1169951) 01:15:06.928215 [Wiretap DEBUG] wiretap/merge.c:1344 -- merge_files_common(): IDB merge operation complete, got 1 IDBs
+ ** (mergecap:1169951) 01:15:06.928231 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:1169951) 01:15:06.928294 [Wiretap DEBUG] wiretap/pcapng.c:4271 -- pcapng_close(): closing file
+ ** (mergecap:1169951) 01:15:06.928335 [Wiretap DEBUG] wiretap/pcapng.c:4271 -- pcapng_close(): closing file

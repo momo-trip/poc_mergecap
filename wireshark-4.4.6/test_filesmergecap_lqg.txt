@@ -1,0 +1,37 @@
+ ** (mergecap:3727358) 14:10:12.964034 [WSUtil DEBUG] wsutil/filesystem.c:324 -- set_configuration_namespace(): Using configuration namespace Wireshark.
+ ** (mergecap:3727358) 14:10:12.964300 [Wiretap DEBUG] wiretap/merge.c:1282 -- merge_files_common(): merge_files: begin
+ ** (mergecap:3727358) 14:10:12.964407 [Wiretap DEBUG] wiretap/pcapng.c:3900 -- pcapng_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964424 [Wiretap DEBUG] wiretap/pcapng.c:3939 -- pcapng_open(): got an SHB
+ ** (mergecap:3727358) 14:10:12.964437 [Wiretap DEBUG] wiretap/pcapng.c:1289 -- pcapng_read_section_header_block(): SHB (our byte order) V1.0, len 240
+ ** (mergecap:3727358) 14:10:12.964454 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 212 bytes
+ ** (mergecap:3727358) 14:10:12.964484 [Wiretap DEBUG] wiretap/pcapng.c:4095 -- pcapng_open(): Check for more initial internal blocks, block_type 0x00000001
+ ** (mergecap:3727358) 14:10:12.964503 [Wiretap DEBUG] wiretap/pcapng.c:1657 -- pcapng_read_if_descr_block(): IDB link_type 197 (Extensible Record Format), snap 262144
+ ** (mergecap:3727358) 14:10:12.964519 [Wiretap DEBUG] wiretap/pcapng.c:1077 -- pcapng_process_options(): Options 12 bytes
+ ** (mergecap:3727358) 14:10:12.964538 [Wiretap DEBUG] wiretap/pcapng.c:3793 -- pcapng_process_internal_block(): block type BLOCK_TYPE_IDB
+ ** (mergecap:3727358) 14:10:12.964554 [Wiretap DEBUG] wiretap/pcapng.c:4125 -- pcapng_open(): Read IDB number_of_interfaces 1, wtap_encap 98
+ ** (mergecap:3727358) 14:10:12.964573 [Wiretap DEBUG] wiretap/pcapng.c:4073 -- pcapng_open(): No more blocks available...
+ ** (mergecap:3727358) 14:10:12.964641 [Wiretap DEBUG] wiretap/pcapng.c:3900 -- pcapng_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964655 [Wiretap DEBUG] wiretap/pcapng.c:3907 -- pcapng_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964678 [Wiretap DEBUG] wiretap/blf.c:3880 -- blf_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964692 [Wiretap DEBUG] wiretap/blf.c:3884 -- blf_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964720 [Wiretap DEBUG] wiretap/autosar_dlt.c:284 -- autosar_dlt_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964737 [Wiretap DEBUG] wiretap/autosar_dlt.c:287 -- autosar_dlt_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964818 [Wiretap DEBUG] wiretap/pcapng.c:3900 -- pcapng_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964832 [Wiretap DEBUG] wiretap/pcapng.c:3907 -- pcapng_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964849 [Wiretap DEBUG] wiretap/blf.c:3880 -- blf_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964863 [Wiretap DEBUG] wiretap/blf.c:3884 -- blf_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964875 [Wiretap DEBUG] wiretap/autosar_dlt.c:284 -- autosar_dlt_open(): opening file
+ ** (mergecap:3727358) 14:10:12.964888 [Wiretap DEBUG] wiretap/autosar_dlt.c:287 -- autosar_dlt_open(): wtap_read_bytes_or_eof() failed, err = 0.
+ ** (mergecap:3727358) 14:10:12.964916 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:3727358) 14:10:12.964931 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:3727358) 14:10:12.964944 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:3727358) 14:10:12.964957 [Wiretap DEBUG] wiretap/merge.c:1322 -- merge_files_common(): got frame_type=98
+ ** (mergecap:3727358) 14:10:12.964992 [UTF-8 DEBUG] wiretap/wtap_opttypes.c:1116 -- wtap_block_add_string_option_owned(): Invalid UTF-8 at address 0x59d711a761a0 offset 45 (length = 59):
+File created by merging: \x0AFile1: 2 \x0AFile2: .W\xA0 \x0AFile3: .W \x0A
+                                                   ^^^^                   
+ ** (mergecap:3727358) 14:10:12.965007 [Wiretap DEBUG] wiretap/merge.c:1341 -- merge_files_common(): SHB created
+ ** (mergecap:3727358) 14:10:12.965028 [Wiretap DEBUG] wiretap/merge.c:744 -- all_idbs_are_duplicates(): sizes of IDB lists don't match: first=1, other=0
+ ** (mergecap:3727358) 14:10:12.965041 [Wiretap DEBUG] wiretap/merge.c:966 -- generate_merged_idbs(): mode NONE set or did not find a duplicate
+ ** (mergecap:3727358) 14:10:12.965055 [Wiretap DEBUG] wiretap/merge.c:1344 -- merge_files_common(): IDB merge operation complete, got 1 IDBs
+ ** (mergecap:3727358) 14:10:12.965069 [Wiretap DEBUG] wiretap/pcapng.c:6789 -- pcapng_dump_can_write_encap(): encap = 98 (Extensible Record Format)
+ ** (mergecap:3727358) 14:10:12.965125 [Wiretap DEBUG] wiretap/pcapng.c:4271 -- pcapng_close(): closing file

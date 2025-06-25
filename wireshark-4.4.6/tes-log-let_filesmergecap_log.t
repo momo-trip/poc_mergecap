@@ -1,0 +1,3 @@
+ ** (mergecap:1217078) 07:40:57.957249 [WSUtil DEBUG] wsutil/filesystem.c:324 -- set_configuration_namespace(): Using configuration namespace Wireshark.
+ ** (mergecap:1217078) 07:40:57.957512 [Wiretap DEBUG] wiretap/merge.c:1282 -- merge_files_common(): merge_files: begin
+ ** (mergecap:1217078) 07:40:57.957535 [Wiretap DEBUG] wiretap/merge.c:1300 -- merge_files_common(): merge_open_in_files() failed with err=-1
